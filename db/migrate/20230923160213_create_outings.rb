@@ -4,7 +4,6 @@ class CreateOutings < ActiveRecord::Migration[7.0]
       t.string :name
       t.string :location
       t.string :date
-      t.references :contestant, null: false, foreign_key: true
 
       t.timestamps
     end
